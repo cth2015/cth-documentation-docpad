@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= @getPreparedTitle() %></title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">The blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <%- @content %>
+</body>
+</html>
